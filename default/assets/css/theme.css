@@ -1,0 +1,11 @@
+/* These import lines are present in the original theme.css file and should
+be retained to maintain auto switching dark mode. */
+
+@import "../../theme-assets/dark/assets/css/theme.css" screen and (prefers-color-scheme: dark);
+@import "../../theme-assets/light/assets/css/theme.css" (prefers-color-scheme: light), (prefers-color-scheme: no-preference);
+
+/* Here we add custom overrides as required */
+
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
