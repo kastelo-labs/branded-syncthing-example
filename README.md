@@ -15,7 +15,7 @@ making a couple of smaller changes:
   that path with another file in SVG format.
 
 - We replace `default/assets/css/theme.css` to change the default font to
-  Comic Sans.
+  Comic Sans and the background colour to `aquamarine`.
 
 Other customizations are also possible, for example it might be an idea to
 add vendor metadata to the Docker image itself to differentiate it from the
@@ -45,3 +45,13 @@ specific when building for reproducibility:
 ```
 % docker build --build-arg SYNCTHING_VERSION=1.23.6 -t my-org/branded-syncthing:1.23.6 .
 ```
+
+## Like this
+
+Default:
+
+![before](/screenshots/before.png)
+
+Branded:
+
+![after](/screenshots/after.png)
