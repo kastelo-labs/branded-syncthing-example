@@ -6,7 +6,9 @@ be retained to maintain auto switching dark mode. */
 
 /* Here we add custom overrides as required */
 
-body {
+body, h1, h2, h3, h4, h5 {
     font-family: Comic Sans MS, Comic Sans, cursive;
+}
+body {
     background-color: aquamarine;
 }
